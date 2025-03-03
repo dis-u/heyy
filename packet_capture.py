@@ -1,7 +1,7 @@
 from scapy.all import sniff, get_if_list
 import requests
 
-flask_server = "http://192.168.65.92:5000"
+flask_server = "http://192.168.176.92:5000"
 
 # List available network interfaces
 print("Available Network Interfaces:")

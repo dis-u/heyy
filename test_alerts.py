@@ -1,6 +1,6 @@
 import requests
 
-base_url = "http://192.168.31.92:5000"
+base_url = "http://192.168.176.92:5000"
 
 # Add test alerts
 requests.get(f"{base_url}/add_alert/UnauthorizedAccess")
